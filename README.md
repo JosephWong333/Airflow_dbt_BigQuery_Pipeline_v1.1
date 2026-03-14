@@ -24,7 +24,6 @@ This project demonstrates a full modern data stack:
 ├── include/               # Supporting files and dbt models
 ├── Dockerfile             # Astro Runtime image
 ├── requirements.txt       # Python dependencies
-├── packages.txt           # OS-level dependencies
 └── airflow_settings.yaml  # Local Airflow connections and variables
 ```
 
