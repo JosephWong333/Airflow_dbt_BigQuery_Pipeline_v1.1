@@ -154,8 +154,3 @@ If any check fails, the Soda scan raises a `ValueError` and the DAG task fails i
 | Postgres | `localhost:5432/postgres` | — |
 
 ---
-
-## ⚠️ Security Notes
-
-- `include/gcp/service_account.json` and `include/soda/configuration.yml` contain sensitive credentials. Both are `.gitignore`d — never commit them.
-- In production, Soda API keys should be injected via environment variables rather than hardcoded in YAML.
